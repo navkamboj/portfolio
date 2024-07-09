@@ -1,5 +1,5 @@
 import parthmittal from "./parth.svg";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./itsme.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -15,14 +15,19 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import nitk from "./nitk.png";
+import concordia from "./concordia.png";
+import opentracks from "./opentracks.png"
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
 import ecell from "./ecell.png";
 import bank from "./bank.jpg";
 import gdsc from "./gdsc.png";
-import iris from "./iris.png";
+import antrix from "./antrix.png";
+import warzone from "./warzone.png";
+import battleship from "./battleship.jpg";
+import gym from "./gym.jpg";
+import iris from "./iris.png"
 import genesis from "./genesis.jpg";
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
@@ -34,12 +39,17 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
+import ukg from "./ukg.png";
+import food from "./food.png";
+import sorting from "./sorting.png";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
-import averlon from "./averlon.jpg";
+import accolite from "./accolite.jpg";
+import career from "./career.jpg";
 import devfolio from "./devfolio.png";
-import pba from "./pba_logo.jpeg";
+import manav from "./manav.png";
+import dance from "./dance.jpg"
+import travel from "./travel.png"
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";
 import lightspeed from "./lightspeed.png";
@@ -64,13 +74,22 @@ export {
   instagram,
   linkedin,
   twitter,
-  nitk,
+  concordia,
+  opentracks,
+  battleship,
+  food,
+  sorting,
+  career,
+  warzone,
+  gym,
+  dance,
+  travel,
   cluboard,
   cash_flow,
   freadom,
   bank,
   gdsc,
-  iris,
+  antrix,
   ecell,
   genesis,
   todo,
@@ -85,12 +104,13 @@ export {
   placeicon,
   recruitment,
   huntly,
-  oracle,
+  ukg,
+  iris,
   comicify_ai,
   greentrust,
-  averlon,
+  accolite,
   devfolio,
-  pba,
+  manav,
   ethglobal,
   polkadot,
   lightspeed,

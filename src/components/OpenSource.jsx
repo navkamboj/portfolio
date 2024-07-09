@@ -26,7 +26,7 @@ const Contribution = (props) => {
             {props.title}
           </a>
           <p className="font-poppins italic font-normal text-[14px] text-dimWhite my-1">
-            {props.organisation}/{props.repo}
+            {props.organisation}
           </p>
         </div>
       </div>
@@ -99,24 +99,12 @@ const OpenSource = () => {
   return (
     <section id="openSource">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-        Open Source Contributions
+        Open Source Contribution
       </h1>
 
       <div className="container px-2 py-5 mx-auto mb-8">
         <div class="flex items-center justify-center">
-          <div class="flex items-center p-1 border border-blue-gradient dark:border-teal-400 rounded-xl">
-            {["PublicLab", "Zulip", "All"].map((item, index) => (
-              <button
-                key={index}
-                onClick={() => handleContributionFilter(item)}
-                className={`px-2 py-2 text-sm font-medium text-white md:py-3 rounded-xl md:px-6 capitalize transition-colors duration-300 focus:outline-none hover:bg-teal-400 font-poppins ${
-                  activeFilter === item ? "bg-teal-400" : ""
-                }`}
-              >
-                {item}
-              </button>
-            ))}
-          </div>
+         
         </div>
 
         <div className="grid grid-cols-1 justify-center gap-8 mt-8 md:mt-16 md:grid-cols-3 sm:grid-cols-2">

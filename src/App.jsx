@@ -17,10 +17,10 @@ import {
 } from "./components";
 
 const App = () => {
-  const [isLoading,setIsLoading] = React.useState(true);
+  const [isLoading,setIsLoading] = React.useState(false);
 
   React.useEffect(()=>{
-    setTimeout(()=>{setIsLoading(false)},1600);
+    setTimeout(()=>{setIsLoading(false)},0);
   },[])
 
   if(isLoading){

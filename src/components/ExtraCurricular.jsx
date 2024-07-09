@@ -8,7 +8,7 @@ const Content = ({ text, link }) => {
   return (
     <div>
       <p className="font-poppins font-normal text-[14px] text-dimWhite my-4 leading-[32px]">
-        ● {text}{" "}
+        {text}{" "}
         {link ? (
           <a href={link} target="_blank">
             <BsLink45Deg
@@ -27,7 +27,7 @@ const Content = ({ text, link }) => {
 const ExtraCurricularCard = (props) => {
   return (
     <motion.div
-      className="flex flex-col px-10 py-12 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card"
+      className="flex flex-col px-2 py-4 rounded-[20px] max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card"
       whileInView={{ y: [-30, 0], opacity: [0, 1] }}
       transition={{ duration: 1 }}
     >
